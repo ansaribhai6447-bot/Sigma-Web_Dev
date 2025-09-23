@@ -1,0 +1,23 @@
+  <H1>Important & Popular Attributes:</H1>
+  <P>controls → Play, pause, volume, full screen dikhata hai.
+
+    autoplay → Page load hote hi video start ho jata hai.
+
+    muted → Video mute shuru hoti hai.  
+
+    loop → Video khatam hote hi dobara shuru hota hai.
+
+    poster="image.jpg" → Video start hone se pehle ek thumbnail image show karta hai.</P>
+       
+       <video width="600" height="600" controls poster="thumbnail.jpg">
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+       
+        <video width="600" height="600" src='mov_bbb.mp4' controls poster="thumbnail.jpg">
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  <source src="movie.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
